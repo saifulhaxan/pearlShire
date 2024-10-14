@@ -52,6 +52,7 @@
       .projectSection {
          background-color: #1b2222;
          height: 100vh;
+         padding-top: 2rem;
       }
 
       .footer_section {
@@ -67,7 +68,7 @@
       }
 
 
-      @media(max-width: 1400px) {
+      @media(max-width: 1600px) {
          .CardsNewsItem__image {
             height: 205px;
          }
@@ -82,10 +83,15 @@
 
          .SocialLinks {
             margin-top: 2.5rem;
+            margin-bottom: 0px !important;
          }
 
          .addressBox {
             margin-bottom: 2rem;
+         }
+
+         footer {
+            padding-top: 5.5rem;
          }
 
          /* .CardsNews__header {
@@ -96,6 +102,16 @@
       /* #guiding .fp-overflow, #culture .fp-overflow {
          height: 100vh;
       } */
+
+
+      .footer_section > div {
+         display: flex;
+         align-items: center;
+      }
+
+      footer {
+         width: 100%;
+      }
    </style>
 
    <?php include 'navigation.php'; ?>

@@ -13,7 +13,7 @@
 
 $(document).ready(function () {
 
-  if ($(window).width() < 1400) {
+  if ($(window).width() <= 1600) {
     setInterval(function () {
       jQuery('.projectSection').find('div').removeClass('fp-overflow');
     }, 500)
