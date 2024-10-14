@@ -6,6 +6,16 @@ html.lenis {
 .lenis.lenis-smooth {
   scroll-behavior: auto;
 }
+
+.footer_section .fp-overflow {
+  height: 100%;
+}
+
+/* footer {
+  display: flex;
+  align-items: center;
+} */
+
 .lenis.lenis-smooth [data-lenis-prevent] {
   overscroll-behavior: contain;
 }
