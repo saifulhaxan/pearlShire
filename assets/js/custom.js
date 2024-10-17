@@ -13,6 +13,14 @@
 
 $(document).ready(function () {
 
+  jQuery('.Header__button_callback').click(function(){
+    jQuery('.sideBar').addClass('activeBar')
+})
+
+jQuery('.sideBar .backBtn').click(function(){
+    jQuery('.sideBar').removeClass('activeBar')
+})
+
   if ($(window).width() <= 1600) {
     setInterval(function () {
       jQuery('.projectSection').find('div').removeClass('fp-overflow');
@@ -108,7 +116,7 @@ $(document).ready(function () {
     const scrollContainer = sliderContainer.querySelector('.scroll-container');
     const prevButton = sliderContainer.querySelector('.prev');
     const nextButton = sliderContainer.querySelector('.next');
-    const scrollAmount = 300; // Adjust this value for how much to scroll on each click
+    const scrollAmount = 550; // Adjust this value for how much to scroll on each click
 
     // Scroll to the left when the "prev" button is clicked
     prevButton.addEventListener('click', function () {

@@ -91,6 +91,15 @@
                                             <label class="labelData">Number of the corporation agreement</label>
                                             <input type="text" class="form-control">
                                         </div>
+                                    <div class="form-group">
+                                        <select class="form-control transparent-select" id="exampleFormControlSelect1">
+                                            <option>License Type</option>
+                                            <option>DED</option>
+                                            <option>Free Zone</option>
+                                            <option>LLC</option>
+                                            <option>Other</option>
+                                        </select>
+                                    </div>
                                         <div class="sendCode">
                                             <button type="button" class="btn w-100 nextBtn">Next</button>
                                         </div>
@@ -113,15 +122,6 @@
                                     </div>
                                     <div class="subHead">
                                         <p>Company details</p>
-                                    </div>
-                                    <div class="form-group">
-                                        <select class="form-control transparent-select" id="exampleFormControlSelect1">
-                                            <option>Select Company</option>
-                                            <option>Company 2</option>
-                                            <option>Company 3</option>
-                                            <option>Company 4</option>
-                                            <option>Company 5</option>
-                                        </select>
                                     </div>
                                     <p class="text-center">The company must be registered, <span class="d-md-block">please contact Mered Sales Department</span></p>
                                     <div class="form-group">

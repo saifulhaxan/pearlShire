@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<title> Our Values - PearlShire </title>
 <?php include 'headLinks.php' ?>
 
 <body>
@@ -10,7 +11,7 @@
       <div class="DefaultPageHeaderDesktop__image">
         <img src="https://mered.ae/_ipx/f_webp,q_85,w_1920/assets/images/pages/values/background.jpg" width="1920">
         <div class="Gradient bottom"></div>
-        <h1 class="DefaultPageHeaderDesktop__title">Our values</h1>
+        <h1 class="DefaultPageHeaderDesktop__title">Vision, Mission & Values</h1>
         <div class="container">
           <button class="StandardButton DefaultPageHeaderDesktop__back-button borderss" fdprocessedid="bllobn">
             <div class="Icon StandardButton__icon Icon-arrow-back" style="width: 1.1rem; height: 1.1rem;">
@@ -38,9 +39,9 @@
       <section class="slide active">
         <div class="slide__image"><img src="https://mered.ae/_ipx/f_webp,q_85,h_1080/assets/images/pages/values/00.jpg" height="1080"></div>
         <div class="slide__container" style="transform: translate(0%, -49.9999%) translate3d(0px, -0.161px, 0px); translate: none; rotate: none; scale: none; opacity: 1;">
-          <h3 class="slide__title">Enriching<br>lives</h3>
-          <p class="slide__sub-title">We do not just build buildings;<br>we build better lives.</p>
-          <p class="slide__description">That is why we begin every project by asking two fundamental questions: Why? and Who? Why are we creating this place? And who will live or work here? We consider the needs and aspirations of the owners and the environment in which the development is located. Instead of imposing ourselves, we carefully integrate to enrich people’s lives within and around our projects. We genuinely care about the long-lasting impact our work will have on communities and cities once our construction is complete.</p>
+          <h3 class="slide__title">Crafting Real Estate<br>Excellence</h3>
+          <p class="slide__sub-title"></p>
+          <p class="slide__description">We envision creating thriving communities across continents, setting new benchmarks in real estate to drive meaningful change, and maximizing value by being recognized as industry specialists. Our projects proudly bear enduring imprints of desing excellence, unwavering quality, and a profound sense of belonging.</p>
         </div>
       </section>
 
@@ -48,18 +49,18 @@
       <section class="slide ">
         <div class="slide__image"><img src="https://mered.ae/_ipx/f_webp,q_85,h_1080/assets/images/pages/values/01.jpg" height="1080"></div>
         <div class="slide__container">
-          <h3 class="slide__title">Fostering<br>lasting<br>relationships</h3>
-          <p class="slide__sub-title">We believe in the power<br>of collaboration and cooperation.</p>
-          <p class="slide__description">By working together with all our partners and leveraging each other’s strengths, we can achieve greater outcomes than we could ever achieve alone. We appreciate and celebrate individual creativity. Through dialogue, we encourage people to share their unique ideas and perspectives. We develop relationships by creating value and opportunities for all stakeholders involved. Thus, every project becomes an enjoyable journey for everyone who is part of it.</p>
+          <h3 class="slide__title">Transforming Landscapes<br>Shaping Lives</h3>
+          <p class="slide__sub-title"></p>
+          <p class="slide__description">We strive to make informed profitable partnerships to craft compelling properties and deliver above-market returns. Our mission to build a better tomorrow by elevating urban projects to enrich lives and enduring values for our stakeholders.</p>
         </div>
       </section>
 
       <section class="slide">
         <div class="slide__image"><img src="https://mered.ae/_ipx/f_webp,q_85,h_1080/assets/images/pages/values/02.jpg" height="1080"></div>
         <div class="slide__container">
-          <h3 class="slide__title">Building<br>excellence and<br>delivering quality</h3>
-          <p class="slide__sub-title">We are committed to building<br>excellence where quality is never<br>compromised. </p>
-          <p class="slide__description">We hold ourselves accountable for every step of the project and every promise we make. We implement rigorous quality control measures to ensure that each phase of the construction process is completed accurately and efficiently.</p>
+          <h3 class="slide__title">Time-Honoured<br>Values</h3>
+          <p class="slide__sub-title"></p>
+          <p class="slide__description">Our operations and engagements prioritize honesty, transparency and ethical conduct.</p>
         </div>
       </section>
     </div>

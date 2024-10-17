@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<title> Our Team - PearlShire </title>
 <?php include 'headLinks.php' ?>
 
 <body class="page-team">
@@ -14,44 +15,50 @@
               <use xlink:href="#quotes"></use>
             </svg>
           </div>
-          <p>At MERED, we believe that buildings are not just glass<br>and concrete structures but timeless landmarks that<br>change people's lives. We aim to be craftsmen<br>of incredible lifestyles that enrich and prosper<br>our customers while remaining relevant<br>for today and tomorrow.</p>
+          <p>Visionary Pioneers. Meet Our Leaders.<br> With a proven track record of delivering exceptional returns, our expertise distinguishes us within the real estate industry.</p>
           <div class="Icon Icon-quotes" style="width: 2rem; height: 1.8rem;">
             <svg class="Icon_inner">
               <use xlink:href="#quotes"></use>
             </svg>
           </div>
         </div>
-        <div class="first__info"><span>Diana Nilipovscaia</span> <span>CEO</span></div>
+        <div class="first__info"><span>Ali M Bagasrawala</span> <span>CEO</span></div>
       </section>
       <section class="slide main ahead next">
         <div class="slide__image"><span class="slide__image-job">CEO</span> <img src="https://mered.ae/_ipx/f_webp,q_85,h_1080/assets/images/pages/team/diana.jpg" height="1080"></div>
         <div class="slide__container">
-          <div class="person"><span class="person__name">Diana<br>Nilipovscaia</span> <span class="person__job">CEO</span></div>
-          <p class="slide__description">Diana Nilipovscaia is&nbsp;the Chief Operations Officer at&nbsp;MERED. She has extensive experience in&nbsp;real estate development and consulting. Diana began her 16-year career in&nbsp;the industry with ECE Projektmanagement GmbH &amp; Co. KG&nbsp;in Germany, a&nbsp;prestigious player in&nbsp;international commercial real estate management.</p>
+          <div class="person"><span class="person__name">Ali M Bagasrawala</span> <span class="person__job">CEO</span></div>
+          <p class="slide__description">Ali M Bagasrawala, Director and Principal of Pearlshire Capital Group, LLC, brings over two decades of diverse professional experience. He co-founded a hospitality real estate investment fund in 2013 and spearheaded Progressive Petroleum LLC as President and Managing Partner since 2002. At Bucktown Wicker Park LLC, he led commercial property acquisition, remodeling, and management, optimizing leasing outcomes. He honed
+his construction and project management skills as a developer at Lalazar Construction Company from 1972 to 1999.</p>
           <button class="StandardButton border" fdprocessedid="tx6pfj">
             <!----> <span class="StandardButton__text">Read More</span> <!---->
           </button>
         </div>
       </section>
       <section class="slide ahead">
-        <div class="slide__image"><span class="slide__image-job">General<br>Manager</span> <img src="https://mered.ae/_ipx/f_webp,q_85,h_1080/assets/images/pages/team/ramil.jpg" height="1080"></div>
+        <div class="slide__image"><span class="slide__image-job">COO</span> <img src="https://mered.ae/_ipx/f_webp,q_85,h_1080/assets/images/pages/team/ramil.jpg" height="1080"></div>
         <div class="slide__container">
-          <div class="person"><span class="person__name">Ramil<br>Guliev</span> <span class="person__job">General<br>Manager</span></div>
-          <p class="slide__description">Ramil Guliev has over fifteen years of&nbsp;industry experience. Ramil's rich career trajectory includes notable stints at&nbsp;major organizations like UK&nbsp;UralSib, real estate developer RBI, investment consultant SRG, leading banks of&nbsp;Eastern Europe, global leader in&nbsp;commercial real estate services and investments CBRE, and cooperation with Morgan Stanley.</p>
+          <div class="person"><span class="person__name">Mohammad Faisal Samana</span> <span class="person__job">COO</span></div>
+          <p class="slide__description">Mohammad Faisal Samana, Chief Operating Officer at Pearlshire Capital Group, LLC
+is a seasoned entrepreneur with vast experience in Business Setup, Property Development, and Investment Company Management across global ventures. With more than 16 years of expertise in real estate, Faisal specializes in structuring new acquisitions and joint ventures and overseeing design, investor relations, construction, and sales management.
+His passion circumnavigates design creativity, quality product sourcing, and construction oversight. Faisal's hands-on approach has fostered the successful establishment and growth of International projects worldwide.</p>
           <!---->
         </div>
       </section>
       <section class="slide ahead">
-        <div class="slide__image"><span class="slide__image-job">GR Director</span> <img src="https://mered.ae/_ipx/f_webp,q_85,h_1080/assets/images/pages/team/marwa.jpg" height="1080"></div>
+        <div class="slide__image"><span class="slide__image-job">Co-Founder and Director</span> <img src="https://mered.ae/_ipx/f_webp,q_85,h_1080/assets/images/pages/team/marwa.jpg" height="1080"></div>
         <div class="slide__container">
-          <div class="person"><span class="person__name">Marwa Faisal<br>Abdul Kader</span> <span class="person__job">GR Director</span></div>
-          <p class="slide__description">Marwa is&nbsp;a real estate and government relations professional with more than a&nbsp;decade's experience. Born in&nbsp;the United Arab Emirates with Jordanian roots, her deep industry knowledge was honed at&nbsp;KPMG, Al&nbsp;Mazaya Real Estate, and Dubai Islamic Bank. Her expertise extends to&nbsp;various international markets, including the UK, CIS region, India, Pakistan, and China.</p>
+          <div class="person"><span class="person__name">Farrukh Bagasra</span> <span class="person__job">Co-Founder and Director</span></div>
+          <p class="slide__description">Farrukh Bagasra, Co-Founder and Director
+of Pearlshire Capital Group, LLC, is a
+visionary leader in finance and hospitality.
+He orchestrates the successful management of prestigious brands like Marriott, Hilton, Intercontinental Hotel Group, and Radisson while fostering invaluable lender relationships. His commitment to excellence and profound industry understanding have made him an indispensable asset, contributing significantly to Pearlshire Capital Group's success.</p>
           <button class="StandardButton border" fdprocessedid="00mk4f">
             <!----> <span class="StandardButton__text">Read More</span> <!---->
           </button>
         </div>
       </section>
-      <section class="slide ahead">
+      <?php /*<section class="slide ahead">
         <div class="slide__image"><span class="slide__image-job">Sales<br>Director</span> <img src="https://mered.ae/_ipx/f_webp,q_85,h_1080/assets/images/pages/team/podkopaev.jpg" height="1080"></div>
         <div class="slide__container">
           <div class="person"><span class="person__name">Mikhail<br>Podkopaev</span> <span class="person__job">Sales<br>Director</span></div>
@@ -80,7 +87,7 @@
             <!----> <span class="StandardButton__text">Read More</span> <!---->
           </button>
         </div>
-      </section>
+      </section>*/ ?>
     </div>
   </section>
 

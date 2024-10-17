@@ -1,6 +1,47 @@
 <!DOCTYPE html>
 <html>
+<title>About Us - PearlShire </title>
 <?php include 'headLinks.php' ?>
+<style>
+  main {
+    background-color: #000;
+    padding: 70px 0 !important;
+    width: 100%;
+  }
+
+  section.timtLineSection {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .timeline__content {
+    background-color: #0d1313;
+    border: 1px solid #0d1313;
+    border-radius: 10px;
+    color: #fff;
+    display: block;
+    padding: 1.25rem;
+    position: relative;
+  }
+
+  .timeline-nav-button {
+    background-color: #0d1313 !important;
+    border: 2px solid #0d1313 !important;
+  }
+
+  .timeline__item:after {
+    background-color: #0d1313 !important;
+    border: 4px solid #0d1313 !important;
+  }
+
+  .timeline--horizontal .timeline-divider {
+    background-color: #f3f3f3 !important;
+    display: block;
+    height: 1px !important;
+  }
+</style>
 
 <body>
   <?php include 'navigation.php'; ?>
@@ -70,6 +111,72 @@
       </div>
     </div>
   </section>
+
+  <section class="timtLineSection">
+    <main>
+      <section class="page-section">
+        <div class="container-fluid">
+          <div class="timeline">
+            <div class="timeline__wrap">
+              <div class="timeline__items">
+                <div class="timeline__item">
+                  <div class="timeline__content">
+                    <h2>2018</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim neque condimentum lacus dapibus. Lorem
+                      ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim neque condimentum lacus dapibus.</p>
+                  </div>
+                </div>
+                <div class="timeline__item">
+                  <div class="timeline__content">
+                    <h2>2015</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim neque condimentum lacus dapibus.</p>
+                  </div>
+                </div>
+                <div class="timeline__item">
+                  <div class="timeline__content">
+                    <h2>2014</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim neque condimentum lacus dapibus.</p>
+                  </div>
+                </div>
+                <div class="timeline__item">
+                  <div class="timeline__content">
+                    <h2>2012</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim neque condimentum lacus dapibus.</p>
+                  </div>
+                </div>
+                <div class="timeline__item">
+                  <div class="timeline__content">
+                    <h2>2010</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim neque condimentum lacus dapibus. Lorem
+                      ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                </div>
+                <div class="timeline__item">
+                  <div class="timeline__content">
+                    <h2>2007</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim neque condimentum lacus dapibus.</p>
+                  </div>
+                </div>
+                <div class="timeline__item">
+                  <div class="timeline__content">
+                    <h2>2004</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim neque condimentum lacus dapibus.</p>
+                  </div>
+                </div>
+                <div class="timeline__item">
+                  <div class="timeline__content">
+                    <h2>2002</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim neque condimentum lacus dapibus.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim neque condimentum lacus dapibus.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </section>
   <?php include 'footer.php' ?>
 </body>
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
@@ -78,6 +185,15 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
 <script src="assets/js/custom.js"></script> -->
+<script type="text/javascript" src="assets/js/timeline.min.js"></script>
+<script>
+  timeline(document.querySelectorAll('.timeline'), {
+    forceVerticalMode: 700,
+    mode: 'horizontal',
+    verticalStartPosition: 'left',
+    visibleItems: 4
+  });
+</script>
 
 <script type="text/javascript">
   $(document).ready(function() {

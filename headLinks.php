@@ -1,9 +1,9 @@
-<title> PearlShire </title>
 
 <head>
    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
    <link rel="stylesheet" type="text/css" href="assets/css/custom_style.css">
    <link rel="stylesheet" type="text/css" href="assets/fonts/stylesheet.css">
+   <link type="text/css" href="assets/css/timeline.min.css" rel="stylesheet">
    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.7.5/css/foundation.min.css">
    <!-- Slick CSS -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />

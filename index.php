@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<title> PearlShire </title>
 <?php include 'headLinks.php' ?>
 
 <body>
@@ -65,6 +66,10 @@
 
       .CardsNewsItem {
          height: auto !important;
+      }
+      .slick-dots{
+          display:none;
+          background:#000;
       }
 
 
@@ -178,11 +183,11 @@
                <div class="CardsCard__container">
                   <img src="https://mered.ae/_ipx/f_webp,q_85,w_1920/assets/images/pages/cards/01.jpg" width="1920" class="CardsCard__image">
                   <div class="text-container">
-                     <h2 class="CardsCard__name">Vision, Misson & Values</h2>
+                     <h2 class="CardsCard__name">Our Values</h2>
                      <h3 class="CardsCard__title">Time-Honoured Values</h3>
                      <p class="CardsCard__description">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the Lorem Ipsum has been the </p>
                      <button class="StandardButton CardsCard__action-button hover border" fdprocessedid="7sfztr">
-                        <!----> <span class="StandardButton__text">Read More</span>
+                        <!----> <a href="our-values"><span class="StandardButton__text">Read More</span></a>
                         <!---->
                      </button>
                   </div>
@@ -201,7 +206,7 @@
                      <h3 class="CardsCard__title">Upholding Success. Our<br> Core Principles.</h3>
                      <p class="CardsCard__description">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the Lorem Ipsum has been the </p>
                      <button class="StandardButton CardsCard__action-button hover border" fdprocessedid="9gtvok">
-                        <!----> <span class="StandardButton__text">Read More</span>
+                        <!----> <a href="guiding-principles"><span class="StandardButton__text">Read More</span></a>
                         <!---->
                      </button>
                   </div>
@@ -219,7 +224,7 @@
                      <h3 class="CardsCard__title">A Culture of Excellence. <br>Our Work Environment.</h3>
                      <p class="CardsCard__description">is simply dummy text of the printing and typesetting industry. Lor</p>
                      <button class="StandardButton CardsCard__action-button hover border" fdprocessedid="49uuml">
-                        <!----> <span class="StandardButton__text">Read More</span>
+                        <!----> <a href="corporate-culture"><span class="StandardButton__text">Read More</span></a>
                         <!---->
                      </button>
                   </div>

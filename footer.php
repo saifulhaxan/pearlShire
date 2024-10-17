@@ -1,24 +1,19 @@
 <footer>
-      <div class="container-fluid">
+      <div class="container-fluid px-md-5">
          <div class="row justify-content-between">
             <div class="col-md-5 mb-4">
                <div class="firstColumn">
                   <div class="contactInfo">
-                     <h4>Sales Center</h4>
-                     <h2><a href="tel: +971 (4) 879 7272">+971 (4) 879 7272</a></h2>
-                  </div>
-                  <div class="contactInfo">
                      <h4>Office</h4>
-                     <h2><a href="tel: +971 (4) 879 7272">+971 (4) 879 7272</a></h2>
-                     <p>Mon-sun: 10:00-19:00</p>
+                     <h2><a href="tel:+97148847774">+971 (4) 884 7744</a></h2>
                   </div>
                   <div class="addressBox">
-                     <p>Al Salam Tecom Tower,
-                        <span>Dubai Internet City</span>
+                     <p>Suite 9, 3rd floor, Oasis Mall, Al Qouz I
+                        <span>Sheikh Zayed Road, Dubai</span>
                      </p>
                   </div>
                   <div class="emailBox">
-                     <a href="mailto: office@mered.ae">office@mered.ae</a>
+                     <a href="mailto: office@mered.ae">connect@pearlshire.com</a>
                   </div>
                   <div class="SocialLinks contacts__item mb-md-5">
                      <div class="SocialLinks__link">
@@ -71,30 +66,29 @@
                   </form>
                </div>
             </div>
-            <div class="col-md-1 mb-4">
+            <div class="col-md-2 mb-4">
                <div class="SimpleMenu__main">
-                  <a href="#" class="SimpleMenu__link">About us</a>
-                  <a href="#" class="SimpleMenu__link">Our team</a>
-                  <a href="#" class="SimpleMenu__link">Our values</a>
-                  <a href="#" class="SimpleMenu__link">Iconic Tower</a>
-                  <a href="#" class="SimpleMenu__link">Partners</a>
-                  <a href="#" class="SimpleMenu__link">Invest</a>
-                  <a href="#" class="SimpleMenu__link">News</a>
+                  <a href="about-us" class="SimpleMenu__link">About us</a>
+                  <a href="our-team" class="SimpleMenu__link">Our team</a>
+                  <a href="our-values" class="SimpleMenu__link">Our values</a>
+                  <a href="guiding-principles" class="SimpleMenu__link">Guiding Priciples</a>
+                  <a href="corporate-culture" class="SimpleMenu__link">Coporate Culture</a>
+                  <a href="#" class="SimpleMenu__link">Projects</a>
                   <a href="#" class="SimpleMenu__link">Contacts</a>
                </div>
             </div>
          </div>
          <div class="row">
-            <div class="col-md-5 mb-4">
+            <div class="col-md-6 mb-4">
                <div class="bottomBar">
                   <div class="singleBox">
                      <div class="footerLogo">
-                        <img src="assets/images/logo.png">
+                        <a href="https://aibitbyte.com/pearlshire/"><img src="assets/images/logo.png"></a>
                      </div>
                      <div class="footerLink">
-                        <div class="contacts__policy-links"><a href="/privacy-policy" class="contacts__policy-links_item" target="_blank">Privacy Policy
-                           </a> <a href="/terms-and-conditions" class="contacts__policy-links_item" target="_blank">Terms and Conditions
-                           </a> <a href="/cookie-usage" class="contacts__policy-links_item" target="_blank">Cookie Usage Agreement
+                        <div class="contacts__policy-links"><a href="#" class="contacts__policy-links_item" target="_blank">Privacy Policy
+                           </a> <a href="#" class="contacts__policy-links_item" target="_blank">Terms and Conditions
+                           </a> <a href="#" class="contacts__policy-links_item" target="_blank">Cookie Usage Agreement
                            </a> <span class="entity">Mered Residences Real Estate LLC</span></div>
                      </div>
                   </div>
